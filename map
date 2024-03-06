@@ -166,12 +166,12 @@
         justify-content: space-between;
    }
     .map-wrapper .list-of-states .statecol strong {
-        font-size: var(--font5);
-        line-height: var(--lineheight4);
+        font-size: 24px;
+        line-height: 34px;
    }
     .map-wrapper .list-of-states .statecol span {
-        font-size: var(--font5);
-        line-height: var(--lineheight3);
+        font-size: 24px;
+        line-height: 28px;
    }
     .map-wrapper .list-of-states .statecol .column {
         opacity: 1;
@@ -220,7 +220,7 @@
         height: 322px;
    }
     .mapclick {
-        font-size: var(--font8);
+        font-size: 16px;
    }
 }
 </style>
