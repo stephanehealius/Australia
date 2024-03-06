@@ -223,5 +223,259 @@
         font-size: 16px;
    }
 }
+    .our-map .map-wrapper {
+       position: relative;
+        padding-top: 150px;
+    }
+    .map-wrapper, .map-wrapper .empty-map {
+       max-width: 920px;
+        margin: 0 auto;
+    }
+    .map-wrapper .map-pin-points .pin-loc {
+        position: absolute;
+        transition-duration: .3s;
+    }
+    .pin-loc:hover {
+       margin-top: -5px;
+        margin-bottom: -5px;
+    }
+    .map-pin.pin-hovered img {
+       filter: brightness(0.8);
+    }
+    .map-wrapper .map-pin-points .nt-loc-wrapper {
+        top: 364px;
+        left: 450px;
+    }
+    .map-wrapper .map-pin-points .wa-loc-wrapper {
+        top: 465px;
+        left: 158px;
+    }
+    .map-wrapper .map-pin-points .sa-loc-wrapper {
+        bottom: 310px;
+        left: 468px;
+    }
+    .map-wrapper .map-pin-points .qld-loc-wrapper {
+        top: 415px;
+        right: 140px;
+    }
+    .map-wrapper .map-pin-points .nsw-loc-wrapper {
+        bottom: 330px;
+        right: 50px;
+    }
+    .map-wrapper .map-pin-points .act-loc-wrapper {
+        bottom: 204px;
+        right: 112px;
+    }
+    .map-wrapper .map-pin-points .vic-loc-wrapper {
+        bottom: 140px;
+        right: 220px;
+    }
+    .map-wrapper .map-pin-points .tas-loc-wrapper {
+        bottom: 34px;
+        right: 145px;
+    }
+    
+    .map-wrapper .map-pin-points .location-detail span {
+       display: block;
+        text-align: left;
+        transition-duration: .6s;
+    }
+    .map-pin-points .location-detail span.sites {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        background-color: #a6adb3;
+        padding: 3px 10px 2px;
+        color: #ffffff;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    .map-pin-points .location-detail span.pathology {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        color: #033572;
+        padding: 6px 12px 6px 10px;
+    }
+    .map-wrapper .map-pin-points .location-detail {
+        position: absolute;
+        background: #ffffff;
+        border: 1px solid #cdd7e3;
+        transition: .3s;
+        border-radius: 8px;
+    }
+    .map-pin-points .location-detail.wa-loc {
+       left: -134px;
+        bottom: -30px;
+    }
+    .map-pin-points .location-detail.nsw-loc {
+       left: -138px;
+        bottom: -38px;
+    }
+    .map-pin-points .location-detail.act-loc {
+       right: -130px;
+        bottom: -34px;
+    }
+    .map-pin-points .location-detail.tas-loc {
+       right: -130px;
+        bottom: 0;
+    }
+    .location-detail.nt-loc {
+       left: -128px;
+        bottom: 0;
+    }
+    .location-detail.sa-loc {
+       left: -128px;
+        bottom: -40px;
+    }
+    .location-detail.qld-loc {
+       right: -140px;
+        bottom: -34px;
+    }
+    .location-detail.vic-loc {
+       left: -138px;
+        bottom: -38px;
+    }
+    .map-wrapper .map-pin-points .location-detail.hovered {
+       visibility: visible;
+        opacity: 1;
+        transition: 0.3s;
+    }
+    
+    .map-wrapper svg {
+        display: block;
+        width: 100%;
+    }
+    #states * {
+        transition-duration: .3s;
+    }
+    #states *.on {
+        fill: #033572;
+    }
+    .map-wrapper {
+        max-width:920px;
+        margin: auto;
+        position: relative;
+    }
+    .map-wrapper .list-of-states .wa-state {
+        position: absolute;
+        top: 321px;
+        left: 23px;
+    }
+    .map-wrapper .list-of-states .nt-state {
+        position: absolute;
+        top: 235px;
+        left: 405px;
+    }
+    .map-wrapper .list-of-states .sa-state {
+        position: absolute;
+        top: 535px;
+        left: 385px;
+        z-index: 5;
+    }
+    .map-wrapper .list-of-states .qld-state {
+        position: absolute;
+        top: 270px;
+        right: 120px;
+        z-index: 5;
+    }
+    .map-wrapper .list-of-states .nsw-state {
+        position: absolute;
+        top: 465px;
+        right: 135px;
+    }
+    .map-wrapper .list-of-states .act-state {
+        position: absolute;
+        top: 585px;
+        right: -10px;
+        z-index: 5;
+    }
+    .map-wrapper .list-of-states .vic-state {
+        position: absolute;
+        top: 670px;
+        right: 250px;
+    }
+    .map-wrapper .list-of-states .tas-state {
+        position: absolute;
+        top: 780px;
+        right: 35px;
+    }
+    .map-wrapper .list-of-states .statecol {
+        text-align: left;
+        list-style: none;
+        padding: 16px;
+        border-radius: 15px 15px 40px 15px;
+        border: 1px solid #C5C9CD;
+        background: #f2f5f8;
+        transition-duration: .3s;
+        box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.10);
+    }
+    .map-wrapper .list-of-states .statecol strong {
+        color: #033572;
+        font-size: 24px;
+        font-style: normal;
+        line-height: 34px;
+        letter-spacing: -0.24px;
+    }
+    .map-wrapper .list-of-states .statecol span {
+        display: block;
+        font-size: 20px;
+        color: #033572;
+        font-style: normal;
+        line-height: 28px;
+        letter-spacing: -0.2px;
+        font-weight: 500;
+    }
+    .map-wrapper .list-of-states .statecol .column {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+        transition-duration: .1s;
+        white-space: nowrap;
+    }
+    .map-wrapper .list-of-states .statecol .column span {
+        color: #ed255c;
+        font-size: 18px;
+       line-height: 25px;
+    }
+    
+    .map-wrapper .list-of-states .state.on .column {
+        opacity: 1;
+        visibility: visible;
+        height: auto;
+    }
+    .map-wrapper .list-of-states .statecol span.path-sec {
+        padding-top: 16px;
+    }
+    .mapclick {
+        display:none;
+        padding: 16px 0 24px;
+        color: #033572;
+        font-size: 20px;
+       line-height: 28px;
+        margin-top: -16px;
+    }
+    /*New map design*/
+    .location-detail .imaging {
+       color: green !important;
+        background-color: red;
+        padding: 4px 12px 3px 10px !important;
+        border-bottom-left-radius: 8px !important;
+        border-bottom-right-radius: 8px !important;
+    }
+    .location-detail.hovered .sites {
+       color: #333f48 !important;
+        background-color: #ffffff !important;
+    }
+    .location-detail.hovered .pathology {
+       background-color: #033572;
+            color: #ffffff !important;
+    }
+    .location-detail.hovered .imaging {
+       background-color: #ed255c;
+        color: #ffffff !important;
+        border-bottom-left-radius: 8px !important;
+        border-bottom-right-radius: 8px !important;
+    }
 </style>
 
