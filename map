@@ -134,3 +134,93 @@
         addOnFromState(el);
       });
     });</script>
+
+<style>
+@media (max-width:991px){
+      .our-map .map-wrapper {
+        padding-top: 0;
+   }
+    .map-wrapper {
+        margin: 32px 0;
+   }
+    .mapclick {
+        display:block;
+        text-align: center;
+   }
+    .map-wrapper .list-of-states .statecol {
+        padding: 24px;
+        position: static;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 8px;
+   }
+    .map-wrapper .list-of-states .state {
+        display: none;
+   }
+    .map-wrapper .list-of-states .state.on {
+        display: block;
+   }
+    .map-wrapper .list-of-states .state-col {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+   }
+    .map-wrapper .list-of-states .statecol strong {
+        font-size: var(--font5);
+        line-height: var(--lineheight4);
+   }
+    .map-wrapper .list-of-states .statecol span {
+        font-size: var(--font5);
+        line-height: var(--lineheight3);
+   }
+    .map-wrapper .list-of-states .statecol .column {
+        opacity: 1;
+        visibility: visible;
+        height: auto;
+   }
+    .map-wrapper .list-of-states .wa-state {
+        top: 290px;
+        left: 15px;
+   }
+    .map-wrapper .list-of-states .nt-state {
+        top: 230px;
+        left: 430px;
+   }
+    .map-wrapper .list-of-states .sa-state {
+        top: 515px;
+        left: 385px;
+        z-index: 5;
+   }
+    .map-wrapper .list-of-states .qld-state {
+        top: 270px;
+        right: 120px;
+        z-index: 5;
+   }
+    .map-wrapper .list-of-states .nsw-state {
+        top: 450px;
+        right: 105px;
+   }
+    .map-wrapper .list-of-states .act-state {
+        top: 600px;
+        right: -50px;
+        z-index: 5;
+   }
+    .map-wrapper .list-of-states .vic-state {
+        top: 670px;
+        right: 250px;
+   }
+    .map-wrapper .list-of-states .tas-state {
+        top: 780px;
+        right: 10px;
+   }
+}
+
+@media (max-width: 480px){
+         .map-wrapper svg {
+        height: 322px;
+   }
+    .mapclick {
+        font-size: var(--font8);
+   }
+}
+</style>
