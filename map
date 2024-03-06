@@ -393,7 +393,7 @@
     .map-wrapper .list-of-states .vic-state {
         position: absolute;
         top: 670px;
-        right: 250px;
+        right: 215px;
     }
     .map-wrapper .list-of-states .tas-state {
         position: absolute;
